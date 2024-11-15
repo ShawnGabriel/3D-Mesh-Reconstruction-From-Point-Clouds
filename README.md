@@ -7,4 +7,5 @@ This repository is an implementation of SMRVIS architecture proposed in _SMRVIS:
 Necessary packages can be found above in `packages.txt`.
 
 ## Instructions
-1. Load c1load.py, make sure to change the 
+> Note : Make sure to change the directory of files where needed.
+1. Load `c1load.py`.
