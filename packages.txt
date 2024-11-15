@@ -4,3 +4,4 @@ pyvista==0.39.1
 plyfile==0.9
 SimpleITK==2.4.0
 scikit-image==0.19.3
+torch==2.5.0
