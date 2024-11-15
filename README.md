@@ -1,1 +1,1 @@
-# 3-D_Mesh_Reconstruction_From_Point_Clouds
+# 3-D Mesh Reconstruction From Point Clouds
