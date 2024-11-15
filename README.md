@@ -31,10 +31,11 @@ We recommend using ParaView 5.9.1 for visualization purposes.
 ---
 
 ## Instructions
-> Note : Make sure to change the directory of files where needed.
-> Note : In our runs, we used an Nvidia L4 GPU (Through Google Colab Pro)
+> Note :
+> * Make sure to change the directory of files where needed.
+> * In our runs, we used an Nvidia L4 GPU (Through Google Colab Pro)
 1. Clone this repository
-2. If needed, pip install -r packages.txt to install the required packages
-3. Adjust all the of filepaths on c1load.py, c2.py, and test.py.
-4. Run python test.py
-5. Run python metrics.py
+2. If needed, `pip install -r packages.txt` to install the required packages
+3. Adjust all the of filepaths on `c1load.py`, `c2.py`, and `test.py`.
+4. Run python `test.py`.
+5. Run python `metrics.py`.
