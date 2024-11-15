@@ -59,6 +59,12 @@ print("Hausdorff distance between PC1 and itself:", d)
 d, _, _ = directed_hausdorff(pointcloud_01_np, pointcloud_02_np)
 print("Hausdorff distance between PC1 and PC2:", d)
 
+import torch
+from kaolin.metrics.pointcloud import chamfer_distance
+
+# Compute Chamfer distance
+print(chamfer_distance(pointcloud_01, pointcloud_01))
+print(chamfer_distance(pointcloud_01, pointcloud_02))
 
 from kaolin.metrics.pointcloud import sided_distance
 import torch
